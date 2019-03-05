@@ -1,0 +1,19 @@
+{
+    "name": "websytech/aws",
+    "description": "An object oriented wrapper for Amazon's AWS PHP SDK.  Specifically for sending bulk emails through SES.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "homepage": "https://github.com/WebsyTech/aws-php",
+    "license": "Apache",
+    "require": {
+        "php": ">=4.0.0",
+        "aws/aws-sdk-php": "^3.87"
+    },
+	"autoload": {
+        "psr-0" : {
+            "WebsyTech\\AWS" : "src/"
+        }
+    }
+}
